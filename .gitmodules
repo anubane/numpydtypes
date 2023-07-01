@@ -1,0 +1,6 @@
+[submodule "include/posit8"]
+	path = include/posit8
+	url = https://github.com/stillwater-sc/universal.git
+[submodule "include/eigen"]
+	path = include/eigen
+	url = https://gitlab.com/libeigen/eigen.git

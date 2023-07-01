@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numpydtypes"
+version = "1.0.0"
+authors = [
+    {
+        name = "Anurag Banerjee",
+    },
+]
+description = "Custom numpy datatype for posit and bfloat"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Operating System :: POSIX :: Linux",
+]
+keywords = ["numpy", "datatype", "wrapper"]
+license = "LICENSE.md"
+dynamic = ["version"]
