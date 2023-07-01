@@ -34,4 +34,4 @@
 # Folder
 build/
 .vscode/*
-examples/*.egg-info/
+examples/*.egg-info/*
